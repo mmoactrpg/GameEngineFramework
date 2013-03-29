@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameEngineFramework" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAQCAAAA=</HashCode>
+      <FileName>GameEngineFramework.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3D" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAADgCCAgCAAAAAAUAAAAAAAAAQAAGCCEAAAAA=</HashCode>
+      <FileName>D3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SilhouetteEdges" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAAEAAAAAABAAAAAAAAQhIQAgBAQQAAQAAA=</HashCode>
+      <FileName>silhouetteEdges.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IRefCount&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IRefCountImpl&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAEAABAAAgAAAAAABQAAAA=</HashCode>
+      <FileName>SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPtr&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAYAACAAAAAAAAAAAwAEAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestScene" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAA=</HashCode>
+      <FileName>TestScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Core::WinApp" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACQAAAQAAAAgACIAAAAABAAAAAAFIAQAAAEAA=</HashCode>
+      <FileName>Engine\Core\WinApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Core::WinFrame" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAUAQEACIIAAAAAEAEQAAwYAAAIAAAA=</HashCode>
+      <FileName>Engine\Core\WinApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::CameraNode" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\CameraNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::Grid" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAAAAAABABAAAAAAQAQBAAAABAhBAQA=</HashCode>
+      <FileName>Engine\SceneManagement\Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::MeshNode" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\MeshNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::IKeyboardSensitive" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\MovementController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::IMouseSensitive" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAABAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\MovementController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::MovementController" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQcEIAAEAACAAAAABgAwAQBAEBIIQAAgAAAAACgAIAA=</HashCode>
+      <FileName>Engine\SceneManagement\MovementController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::Scene">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAgEACAAAAQACAAAIAABABAAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::SceneNode" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIADABAAAAGAAAYAAAAAAgAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\SceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::SceneManagement::TransformNode" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABAAAQAAAIAAABAAAAAAAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\TransformNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EdgeVertex" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAoAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>silhouetteEdges.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MeshVertex" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>silhouetteEdges.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="d3d::BoundingBox" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAEABAAAAAAAA=</HashCode>
+      <FileName>d3dUtility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="d3d::BoundingSphere" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>d3dUtility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="d3d::Vertex" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQBAAAAAAAAAAAAAAAAAAAAhAAAAACAYAA=</HashCode>
+      <FileName>d3dUtility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Engine::SceneManagement::SceneNodeList" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SceneManagement\SceneNode.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

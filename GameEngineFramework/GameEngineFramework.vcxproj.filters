@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{60a7db88-09fe-4c7c-9a02-6dba05430854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{e957ce38-1d6c-4717-a680-798d5aef1504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManagement">
+      <UniqueIdentifier>{a2aa553c-f0b9-4442-a39b-434678f3bf65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngineFramework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="silhouetteEdges.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\CameraNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\Grid.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\MeshNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\MovementController.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\Scene.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\SceneNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\TransformNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\ArrowNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\SkyNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\def.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManagement\XMeshNode.cpp">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Core\WinApp.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\CameraNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\Grid.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\MeshNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\MovementController.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\Scene.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\SceneNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\TransformNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\ArrowNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\SkyNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\def.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManagement\XMeshNode.h">
+      <Filter>Engine\SceneManagement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
